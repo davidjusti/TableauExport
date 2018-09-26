@@ -53,7 +53,7 @@ $(document).ready(function () {
 });
 
 function configure() {
-  const popupUrl = `https://github.com/davidjusti/configure.html`;
+  const popupUrl = `https://davidjusti.github.io/TableauExport/configure.html`;
   tableau.extensions.ui.displayDialogAsync(popupUrl, 'Payload Message', { height: 500, width: 500 }).then((closePayload) => {
 
   }).catch((error) => {
@@ -68,7 +68,7 @@ function configure() {
 }
 
 function exportToWindow() {
-  const popupUrl = `https://github.com/davidjusti/summary.html`;
+  const popupUrl = `https://davidjusti.github.io/TableauExport/summary.html`;
   tableau.extensions.ui.displayDialogAsync(popupUrl, 'Payload Message', { height: 500, width: 800 }).then((closePayload) => {
 
   }).catch((error) => {
